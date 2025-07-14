@@ -2,9 +2,9 @@ package student;
 //vsechny metody jsou PUBLIC
 public class Student2 {
 //vsechny vlastnosti - properties jsou PRIVATE
-    private String name;
-    private int age;
-    public static int totalStudents = 0;
+    private String name; //instance variable patri pouz tomuto zaznamu napr. jozko
+    private int age; //instance variable
+    public static int totalStudents = 0; // static promenna patri teto tride cele
     public static final int MINIMUM_AGE = 15; //pouzivame poze na konstanty
     //constatnt piseme CAPSLOCK
 

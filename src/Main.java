@@ -25,10 +25,15 @@ public class Main {
         Student2  jozko = new Student2("Jozko", 35);
         Student2  marek = new Student2("Marek", 20);
         Student2  misa = new Student2("Misa", 26);
+        Student2  lenka = new Student2("Lenka", 61);
         System.out.println("Total student je " + Student2.totalStudents);
         Student  jozko2 = new Student("Jozko", 35);
         Student  marek2 = new Student("Marek", 20);
         Student  misa2 = new Student("Misa", 26);
-        System.out.println(jozko2.getTotalStudents());
+        Student  lenka2 = new Student("Lenka", 61);
+        student.printInfo();
+        student2.printInfo();
+        System.out.println("Jmeno studenta je " + student.getName() + " vek je: " + student.getAge());
+        System.out.println(lenka2.getTotalStudents());
     }
 }
